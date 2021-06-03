@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <!-- Css file link-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap css file link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container" id="maindiv">
+        <div class="row text-center">
+            <div class="col-md-4"></div>
+            <h1> <span class="text-success">  Rock </span> - <span class="text-info"> Paper </span> - <span class="text-danger"> Scissors </span> </h1>
+        </div>
+
+        <div id="game-section">
+
+            <div class="row">
+                <div class="col-md-4"></div>
+
+                <div class="col-md-4 text-center" id="output"></div> <br>
+
+            </div>
+
+            <div class="col-12" name="Blankspace"></div>
+
+            <div class="row" id="game-play-area">
+
+                <div class="col-md-5" id="out1">
+
+                    <img src="rock.jpeg" width="150" height="150" alt="rock" id="rock" onclick="gameplay(this)">
+
+                </div>
+
+                <div class="col-md-4 my-auto" id="out2">
+
+                    <img src="paper.jpeg" width=150 height=150 alt="paper" id="paper" onclick="gameplay(this)">
+
+                </div>
+
+                <div class="col-md-3" id="out3">
+
+                    <img src="scissors.jpeg" width="150" height="150" alt="hands" id="scissors" onclick="gameplay(this)">
+
+                </div>
+
+
+            </div>
+            
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootsrap js file link-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Js file link-->
+<script type="text/javascript" src="script.js"></script>   
+</body>
+</html>

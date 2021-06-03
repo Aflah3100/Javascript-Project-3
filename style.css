@@ -1,0 +1,13 @@
+#maindiv{
+    border: 1px solid black;
+    margin-top: 10px;
+    
+}
+#output{
+    border: 3px solid rgb(17, 114, 158);
+    height: 60px;
+}
+#game-play-area img:hover{
+    box-shadow: 0px 10px 30px rgba(37,50,233,1);
+}
+
